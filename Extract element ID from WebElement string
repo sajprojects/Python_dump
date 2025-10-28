@@ -1,0 +1,4 @@
+i = '<selenium.webdriver.remote.webelement.WebElement (session="628ee0f5c798de573c1ee53761e24e0b", element="f.C0B25DDA853B764FFE6173473B7F0A16.d.7DE977AD412C339B5DA6BD87078E8BFA.e.218")>'
+ii = str(i).split('.')[-1].split('"')[0]
+
+print(ii)
