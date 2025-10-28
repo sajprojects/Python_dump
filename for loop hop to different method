@@ -1,0 +1,18 @@
+def something():
+	print("I'm in the something() method")
+	if 1 > 2:
+		return
+
+
+def loop():
+	for i in range(5):
+		i += 1
+		if i == 3:
+			something()
+		print(i)
+	return
+
+def anothermethod():
+	print("another method")
+
+loop()
