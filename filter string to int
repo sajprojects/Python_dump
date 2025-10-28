@@ -1,0 +1,11 @@
+string = "This string contains the number 400"
+
+newString = int(''.join(filter(str.isdigit, string)))
+
+print(newString)
+
+tuplee = ("30wfw0", "42hrh", "565egr")
+
+x = int(''.join(filter(str.isdigit, tuplee)))
+
+print(x)
